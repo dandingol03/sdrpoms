@@ -1,0 +1,20 @@
+create view base_info_part_bridge_view as select a.id as id,a.name as name,a.the_geom,a.org_id,b.id as rail_id from base_info_part_bridge a,base_info_rail b where MBRContains(b.range_geom,a.the_geom);
+create view base_info_part_culvert_view as select a.id as id,a.name as name,a.the_geom,a.org_id,b.id as rail_id from base_info_part_culvert a,base_info_rail b where MBRContains(b.range_geom,a.the_geom);
+create view base_info_part_junction_view as select a.id as id,a.name as name,a.the_geom,a.org_id,b.id as rail_id from base_info_part_junction a,base_info_rail b where MBRContains(b.range_geom,a.the_geom);
+create view base_info_part_station_view as  select a.id as id,a.name as name,a.the_geom,a.org_id,b.id as rail_id from base_info_part_station a,base_info_rail b where MBRContains(b.range_geom,a.the_geom);
+create view base_info_part_trajection_view as select a.id as id,a.name as name,a.the_geom,a.org_id,b.id as rail_id from base_info_part_trajection a,base_info_rail b where MBRContains(b.range_geom,a.the_geom);
+create view base_info_part_tunnel_view as select a.id as id,a.name as name,a.the_geom,a.org_id,b.id as rail_id from base_info_part_tunnel a,base_info_rail b where MBRContains(b.range_geom,a.the_geom);
+create view base_info_keyperson_view as select a.id as id,a.name as name,a.the_geom,a.org_id,b.id as rail_id from base_info_keyperson a,base_info_rail b where MBRContains(b.range_geom,a.the_geom);
+create view patrol_danger_info_view as select a.id as id,a.name as name,a.type as type,a.danger_type as danger_type,a.the_geom,a.org_id,b.id as rail_id from patrol_danger_info a,base_info_rail b where MBRContains(b.range_geom,a.the_geom);
+
+
+create view base_info_defence_broadcast_view as select a.id as id,a.name as name,a.the_geom,a.org_id,b.id as rail_id from base_info_defence_broadcast a,base_info_rail b where MBRContains(b.range_geom,a.the_geom);
+create view base_info_defence_guard_station_view as select a.id as id,a.name as name,a.the_geom,a.org_id,b.id as rail_id from base_info_defence_guard_station a,base_info_rail b where MBRContains(b.range_geom,a.the_geom);
+create view base_info_defence_police_house_view as select a.id as id,a.name as name,a.the_geom,a.org_id,b.id as rail_id from base_info_defence_police_house a,base_info_rail b where MBRContains(b.range_geom,a.the_geom);
+create view base_info_defence_police_station_view as select a.id as id,a.name as name,a.the_geom,a.org_id,b.id as rail_id from base_info_defence_police_station a,base_info_rail b where MBRContains(b.range_geom,a.the_geom);
+create view base_info_defence_propaganda_view as select a.id as id,a.name as name,a.the_geom,a.org_id,b.id as rail_id from base_info_defence_propaganda a,base_info_rail b where MBRContains(b.range_geom,a.the_geom);
+create view video_monitor_info_view as select a.id as id,a.name as name,a.the_geom,a.org_id,b.id as rail_id from video_monitor_info a,base_info_rail b where MBRContains(b.range_geom,a.the_geom);
+create view base_info_peripheral_place_view as select a.id as id,a.name as name,a.category as category,a.type as type, a.the_geom,a.org_id,b.id as rail_id from base_info_peripheral_place a,base_info_rail b where MBRContains(b.range_geom,a.the_geom);
+
+create view online_carde_view as select a.user_id,b.user_name,b.user_org as org_id,c.id as rail_id from patrol_team_user_relation a,pub_users b,base_info_rail c where a.user_id=b.user_id and str_to_date(b.last_time,'%Y-%m-%d %H:%i:%s')>DATE_SUB(now(),interval -3 minute) and MBRContains(b.the_geom,c.range_geom);
+create view online_team_member_view as select a.user_id as user_id,a.user_name as user_name,a.user_org as org_id,b.id as rail_id from pub_users a,base_info_rail b where a.user_id not in (select c.user_id from patrol_team_user_relation c) and str_to_date(a.last_time,'%Y-%m-%d %H:%i:%s') > (now() - interval -(3) minute) and mbrcontains(a.the_geom,b.range_geom);

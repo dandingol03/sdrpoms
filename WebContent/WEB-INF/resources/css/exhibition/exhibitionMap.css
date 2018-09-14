@@ -1,0 +1,1032 @@
+@media (min-width:1024px){
+	/* .ex_main_leftheader {width:28%;height: 10%;} */
+	.ex_main_right_screen_content{width:30%;}
+	.exmrsc_content_header{width:100%;height:28%;}
+	.exmrsc_content_header_left_content{height:80%;}
+	.exmrsc_content_header_left_content_railcontent li{font-size:12px !important;}
+	.exmrsc_region{width:92% !important;font-size:14px !important;}
+	.exmrsc_content_header_left_content_region li{font-size:12px !important;}
+	/* --------------------------------------------------------- */
+	.ex_main_rail_list{width:100%}
+	.ex_main_railList{height: calc(100% - 60px);}
+	.ex_main_rail_search{font-size:12px;}
+	.ex_main_railList li{font-size:12px;}
+	.ex_main_railList li.rail_line_select{font-size:12px;}
+	/* --------------------------------------------------------- */
+	.ex_main_right_screen_content_content_bottom{width:100%;height:72%;}
+	.exmrsc_content{top:5%;left:4%;}
+	/* --------------------------------------------------------- */
+	.exmrsc_frist_header{height:25%;}
+	.exmrsc_frist_content{height:75%;}
+	.exmrsc_frist_Keyparts{height:100%;font-size:13px;line-height:25px;}
+	.exmrsc_frist_Keyparts_check{height:100%;font-size:13px;line-height:25px;}
+	.exmrsc_frist_Keyparts_check span{font-size:13px;}
+	.exmrsc_frist_Keyparts span{font-size:13px;}
+	.exmrsc_frist_Keyperson{height:100%;font-size:13px;line-height:25px;}
+	.exmrsc_frist_Keyperson_check{height:100%;font-size:13px;line-height:25px;}
+	.exmrsc_frist_Keyperson span{font-size:13px;}
+	.exmrsc_frist_Keyperson_check span{font-size:13px;}
+	.exmrsc_frist_content ul li{font-size:12px;margin:2px 5px;height:25%;}
+	.exmrsc_frist_content ul li.check{font-size:12px;margin:2px 5px;height:25%;}
+	.exmrsc_frist_content ul li span{font-size:12px;}
+	.exmrsc_frist_content ul li.check span{font-size:12px;}
+	/* --------------------------------------------------------- */
+	.exmrsc_second_header{height:20%;}
+	.exmrsc_second_content{height:80%;}
+	.exmrsc_second_defense{width:50%;height:100%;font-size:13px;line-height:25px;}
+	.exmrsc_second_defense span{font-size:13px;}
+	.exmrsc_second_defense_hover{width:50%;height:100%;font-size:13px;line-height:25px;}
+	.exmrsc_second_defense_hover span{font-size:13px;}
+	.exmrsc_second_content ul li{font-size:12px;margin:2px 5px;height:20%;}
+	.exmrsc_second_content ul li.check{font-size:12px;margin:2px 5px;height:20%;}
+	.exmrsc_second_content ul li span{font-size:12px;}
+	.exmrsc_second_content ul li.check span{font-size:12px;}
+	/* --------------------------------------------------------- */
+	.exmrsc_third_header{height:20%;}
+	.exmrsc_third_content{height:80%;}
+	.exmrsc_third_header_Keyplace{font-size:13px;line-height:25px;}
+	.exmrsc_third_header_Keyplace span{font-size:13px;}
+	.exmrsc_third_header_Keyplace_hover{font-size:13px;line-height:25px;}
+	.exmrsc_third_header_Keyplace_hover span{font-size:13px;}
+	.exmrsc_third_content ul li{font-size:12px;margin:2px 5px;height:28%;}
+	.exmrsc_third_content ul li.select{font-size:12px;margin:4px 5px;height:28%;}
+	.exmrsc_third_content ul li span{font-size:12px;}
+	.exmrsc_third_content ul li.select span{font-size:12px;}
+	.exmrsc_third_header span{line-height:25px;font-size:13px !important;}
+	.exmrsc_thirdc_morec ul li{height:16% !important;}
+	/* --------------------------------------------------------- */
+	.ex_main_danger_list{margin:22px -56px;}
+	.ex_main_rightheader_pw6{right:29%;}
+	/* --------------------------------------------------------- */
+	.ex_main_rightheader_pw6{right:28%;}
+	.ex_main_rightheader_pw7{width:9%;height:28%;right:29%;}
+	#emrpc7 div{text-indent:5px;font-size:12px;}
+	.ex_main_bottom_menu_btn {
+	    width:32px;
+		height:46px;
+	    float: left;
+	    background: url(../../image/exhibition/main/1024/open.png) no-repeat;
+	    z-index: 99;
+	    cursor: pointer;
+	}
+	.ex_main_bottom_menu_btn_hover{
+		width:32px;
+		height:46px;
+		float:left;
+		background:url(../../image/exhibition/main/1024/open_hover.png) no-repeat;
+		z-index:99999;
+		cursor: pointer;
+		margin:0px;
+	}
+	.ex_main_bottom_menu_content{width:0;height:46px;left:30px;}
+	.ex_main_bottom_menu_content ul li{
+		width:54px;
+		height:60px;
+		/* background-size:100% 100%; */
+	}
+	.Basicdata{
+	  background:url(../../image/exhibition/mapanimate/Basicdata.png) top 5px center  no-repeat;
+	}
+	.Videosurveillance{
+	  background:url(../../image/exhibition/mapanimate/Videosurveillance.png) top 5px center no-repeat;
+	}
+	.Patrolmanagement{
+	  background:url(../../image/exhibition/mapanimate/Patrolmanagement.png) top 5px center no-repeat;
+	}
+	.Hiddendanger_disposal{
+	  background:url(../../image/exhibition/mapanimate/Hiddendanger_disposal.png) top 5px center no-repeat;
+	}
+	.officeOa{
+	  background:url(../../image/exhibition/mapanimate/officeOa.png) top 5px center no-repeat;
+	}
+	.training{
+	  background:url(../../image/exhibition/mapanimate/training.png) top 5px center  no-repeat;
+	}
+	.Judgment_analysis{
+	  	background:url(../../image/exhibition/mapanimate/Judgment_analysis.png) top 5px center  no-repeat;
+	}
+	.Videoconferencng{
+	  background:url(../../image/exhibition/mapanimate/Videoconferencng.png) top 5px center no-repeat;
+	}
+	.MochaITOM{
+	  background:url(../../image/exhibition/mapanimate/MochaITOM.png) top 5px center no-repeat;
+	}
+	.Basicdata:hover{
+	  width:54px !important;
+		height:60px !important;
+		background-size:100% 100% !important;
+		background: url(../../image/exhibition/main/1024/Basicdata_hover.png) 0 -10px no-repeat;
+	}
+	.Videosurveillance:hover{
+		width:54px !important;
+		height:60px !important;
+		background-size:100% 100% !important;
+		background:url(../../image/exhibition/main/1024/Videosurveillance_hover.png) 0 -10px no-repeat;
+	}
+	.Patrolmanagement:hover{
+		width:54px !important;
+		height:60px !important;
+		background-size:100% 100% !important;
+	  	background:url(../../image/exhibition/main/1024/Patrolmanagement_hover.png) 0 -10px  no-repeat;
+	}
+	.Hiddendanger_disposal:hover{
+		width:54px !important;
+		height:60px !important;
+		background-size:100% 100% !important;
+	  	background:url(../../image/exhibition/main/1024/Hiddendanger_disposal_hover.png) 0 -10px  no-repeat;
+	}
+	.officeOa:hover{
+	width:54px !important;
+		height:60px !important;
+		background-size:100% 100% !important;
+	  background:url(../../image/exhibition/main/1024/officeOa_hover.png) 0 -10px  no-repeat;
+	}
+	.training:hover{
+		width:54px !important;
+		height:60px !important;
+		background-size:100% 100% !important;
+	  	background:url(../../image/exhibition/main/1024/training_hover.png) 0 -10px  no-repeat;
+	}
+	.Judgment_analysis:hover{
+		width:54px !important;
+		height:60px !important;
+		background-size:100% 100% !important;
+	  	background:url(../../image/exhibition/main/1024/Judgment_analysis_hover.png) 0 -10px  no-repeat;
+	}
+	.Videoconferencng:hover{
+		width:54px !important;
+		height:60px !important;
+		background-size:100% 100% !important;
+	  	background:url(../../image/exhibition/main/1024/Videoconferencng_hover.png) 0 -10px no-repeat;
+	}
+	.MochaITOM:hover{
+		width:54px !important;
+		height:60px !important;
+		background-size:100% 100% !important;
+	  	background:url(../../image/exhibition/main/1024/MochaITOM_hover.png) 0 -10px  no-repeat;
+	}
+}
+
+@media (min-width:1280px){
+	/* .ex_main_leftheader {width:28%;height: 10%;} */
+	.ex_main_right_screen_content{width:29%;}
+	.exmrsc_content_header{width:100%;height:40%;}
+	.exmrsc_content_header_left_content{height:88%;}
+	.exmrsc_content_header_left_content_railcontent li{font-size:12px !important;}
+	.exmrsc_region{width:100% !important;font-size:14px !important;}
+	.exmrsc_content_header_left_content_region li{font-size:12px !important;}
+	/* --------------------------------------------------------- */
+	.ex_main_rail_list{width:100%}
+	.ex_main_railList{height: calc(100% - 60px);}
+	.ex_main_rail_search{font-size:12px;}
+	.ex_main_railList li{font-size:12px;}
+	.ex_main_railList li.rail_line_select{font-size:12px;}
+	/* --------------------------------------------------------- */
+	.ex_main_right_screen_content_content_bottom{width:100%;height:60%;}
+	.exmrsc_content{top:5%;left:4%;}
+	/* --------------------------------------------------------- */
+	.exmrsc_frist_header{height:25%;}
+	.exmrsc_frist_content{height:75%;}
+	.exmrsc_frist_Keyparts{height:100%;font-size:14px;background-position: left 5px top 5px;}
+	.exmrsc_frist_Keyparts_check{height:100%;font-size:14px;background-position: left 5px top 5px;}
+	.exmrsc_frist_Keyparts_check span{font-size:14px;}
+	.exmrsc_frist_Keyparts span{font-size:14px;}
+	.exmrsc_frist_Keyperson{height:100%;font-size:14px;background-position: left 15px top 5px;}
+	.exmrsc_frist_Keyperson_check{height:100%;font-size:14px;background-position: left 15px top 5px;}
+	.exmrsc_frist_Keyperson span{font-size:14px;}
+	.exmrsc_frist_Keyperson_check span{font-size:14px;}
+	.exmrsc_frist_content ul li{font-size:13px;margin:4px 5px;height:25%;}
+	.exmrsc_frist_content ul li.check{font-size:13px;margin:4px 5px;height:25%;}
+	.exmrsc_frist_content ul li span{font-size:13px;}
+	.exmrsc_frist_content ul li.check span{font-size:13px;}
+	/* --------------------------------------------------------- */
+	.exmrsc_second_header{height:20%;}
+	.exmrsc_second_content{height:80%;}
+	.exmrsc_second_defense{width:50%;height:100%;font-size:14px;}
+	.exmrsc_second_defense span{font-size:14px;}
+	.exmrsc_second_defense_hover{width:50%;height:100%;font-size:14px;}
+	.exmrsc_second_defense_hoverspan{font-size:14px;}
+	.exmrsc_second_content ul li{font-size:13px;margin:4px 5px;height:16%;}
+	.exmrsc_second_content ul li.check{font-size:13px;margin:4px 5px;height:16%;}
+	.exmrsc_second_content ul li span{font-size:13px;}
+	.exmrsc_second_content ul li.check span{font-size:13px;}
+	/* --------------------------------------------------------- */
+	.exmrsc_third_header{height:20%;}
+	.exmrsc_third_content{height:80%;}
+	.exmrsc_third_header_Keyplace{font-size:14px;}
+	.exmrsc_third_header_Keyplace span{font-size:14px;}
+	.exmrsc_third_header_Keyplace_hover{font-size:14px;}
+	.exmrsc_third_header_Keyplace_hover span{font-size:14px;}
+	.exmrsc_third_content ul li{font-size:13px;margin:4px 5px;height:23%;}
+	.exmrsc_third_content ul li.select{font-size:13px;margin:4px 5px;height:23%;}
+	.exmrsc_third_content ul li span{font-size:13px;}
+	.exmrsc_third_content ul li.select span{font-size:13px;}
+	.exmrsc_thirdc_morec ul li{height:14% !important;}
+	/* --------------------------------------------------------- */
+	.ex_main_rightheader_pw6{right:28%;}
+	.ex_main_rightheader_pw7{width:9%;right:28%}
+	#emrpc7 div{text-indent:5px;font-size:12px;}
+	.ex_main_bottom_menu_btn {
+	    width:41px;
+		height:57px;
+	    float: left;
+	    background: url(../../image/exhibition/main/1280/open.png) no-repeat;
+	    z-index: 99;
+	    cursor: pointer;
+	}
+	.ex_main_bottom_menu_btn_hover{
+		width:41px;
+		height:57px;
+		float:left;
+		background:url(../../image/exhibition/main/1280/open_hover.png) no-repeat;
+		z-index:99999;
+		cursor: pointer;
+		margin:0px;
+	}
+	.ex_main_bottom_menu_content{width:0;height:57px;left:39px;}
+	.ex_main_bottom_menu_content ul li{
+		width:81px;
+		height:70px;
+	}
+	.Basicdata{
+	  background:url(../../image/exhibition/mapanimate/Basicdata.png) top 5px center  no-repeat;
+	}
+	.Videosurveillance{
+	  background:url(../../image/exhibition/mapanimate/Videosurveillance.png) top 5px center no-repeat;
+	}
+	.Patrolmanagement{
+	  background:url(../../image/exhibition/mapanimate/Patrolmanagement.png) top 5px center no-repeat;
+	}
+	.Hiddendanger_disposal{
+	  background:url(../../image/exhibition/mapanimate/Hiddendanger_disposal.png) top 5px center no-repeat;
+	}
+	.officeOa{
+	  background:url(../../image/exhibition/mapanimate/officeOa.png) top 5px center no-repeat;
+	}
+	.training{
+	  background:url(../../image/exhibition/mapanimate/training.png) top 5px center  no-repeat;
+	}
+	.Judgment_analysis{
+	  	background:url(../../image/exhibition/mapanimate/Judgment_analysis.png) top 5px center  no-repeat;
+	}
+	.Videoconferencng{
+	  background:url(../../image/exhibition/mapanimate/Videoconferencng.png) top 5px center no-repeat;
+	}
+	.MochaITOM{
+	  background:url(../../image/exhibition/mapanimate/MochaITOM.png) top 5px center no-repeat;
+	}
+	.Basicdata:hover{
+		width:81px !important;
+		height:57px !important;
+		background-size:100% 100% !important;
+		background: url(../../image/exhibition/main/1280/Basicdata_hover.png) 0 -5px no-repeat;
+	}
+	.Videosurveillance:hover{
+		width:81px !important;
+		height:57px !important;
+		background-size:100% 100% !important;
+	  	background:url(../../image/exhibition/main/1280/Videosurveillance_hover.png) 0 -5px no-repeat;
+	}
+	.Patrolmanagement:hover{
+		width:81px !important;
+		height:57px !important;
+		background-size:100% 100% !important;
+	  	background:url(../../image/exhibition/main/1280/Patrolmanagement_hover.png) 0 -5px  no-repeat;
+	}
+	.Hiddendanger_disposal:hover{
+		width:81px !important;
+		height:57px !important;
+		background-size:100% 100% !important;
+	  	background:url(../../image/exhibition/main/1280/Hiddendanger_disposal_hover.png) 0 -5px  no-repeat;
+	}
+	.officeOa:hover{
+	 	width:81px !important;
+		height:57px !important;
+		background-size:100% 100% !important;
+	  	background:url(../../image/exhibition/main/1280/officeOa_hover.png) 0 -5px  no-repeat;
+	}
+	.training:hover{
+		width:81px !important;
+		height:57px !important;
+		background-size:100% 100% !important;
+	  	background:url(../../image/exhibition/main/1280/training_hover.png) 0 -5px  no-repeat;
+	}
+	.Judgment_analysis:hover{
+		width:81px !important;
+		height:57px !important;
+		background-size:100% 100% !important;
+	  	background:url(../../image/exhibition/main/1280/Judgment_analysis_hover.png) 0 -5px  no-repeat;
+	}
+	.Videoconferencng:hover{
+		width:81px !important;
+		height:57px !important;
+		background-size:100% 100% !important;
+	  	background:url(../../image/exhibition/main/1280/Videoconferencng_hover.png) 0 -5px no-repeat;
+	}
+	.MochaITOM:hover{
+		width:81px !important;
+		height:57px !important;
+		background-size:100% 100% !important;
+	  	background:url(../../image/exhibition/main/1280/MochaITOM_hover.png) 0 -5px  no-repeat;
+	}
+}
+@media (min-width:1366px){
+	.ex_main_bottom_menu_content ul li span{
+	    display:  inline-block;
+	    float:  left;
+	    color:  #fff;
+	    line-height:  98px;
+	    text-align:  center;
+	    width:  100%;
+	    font-family: monospace;
+	    font-size:14px;
+	}
+	/* .ex_main_leftheader {width:28%;height: 10%;} */
+	.ex_main_right_screen_content{width:24%;}
+	.exmrsc_content_header{width:100%;height:28%;}
+	.exmrsc_content_header_left_content{height:80%;}
+	.exmrsc_content_header_left_content_railcontent li{font-size:12px !important;}
+	.exmrsc_region{width:92% !important;font-size:14px !important;}
+	.exmrsc_content_header_left_content_region li{font-size:12px !important;}
+	/* --------------------------------------------------------- */
+	.ex_main_rail_list{width:100%}
+	.ex_main_railList{height: calc(100% - 60px);}
+	.ex_main_rail_search{font-size:12px;}
+	.ex_main_railList li{font-size:12px;}
+	.ex_main_railList li.rail_line_select{font-size:12px;}
+	/* --------------------------------------------------------- */
+	.ex_main_right_screen_content_content_bottom{width:100%;height:72%;}
+	.exmrsc_content{top:5%;left:4%;}
+	/* --------------------------------------------------------- */
+	.exmrsc_frist_header{height:25%;}
+	.exmrsc_frist_content{height:75%;}
+	.exmrsc_frist_Keyparts{height:100%;font-size:13px;line-height:25px;background-position: left 5px top 4px;}
+	.exmrsc_frist_Keyparts_check{height:100%;font-size:13px;line-height:25px;background-position: left 5px top 4px;}
+	.exmrsc_frist_Keyparts_check span{font-size:13px;}
+	.exmrsc_frist_Keyparts span{font-size:13px;}
+	.exmrsc_frist_Keyperson{height:100%;font-size:13px;line-height:25px;background-position: left 12px top 4px;}
+	.exmrsc_frist_Keyperson_check{height:100%;font-size:13px;line-height:25px;background-position: left 12px top 4px;}
+	.exmrsc_frist_Keyperson span{font-size:13px;}
+	.exmrsc_frist_Keyperson_check span{font-size:13px;}
+	.exmrsc_frist_content ul li{font-size:12px;margin:2px 5px;height:25%;}
+	.exmrsc_frist_content ul li.check{font-size:12px;margin:2px 5px;height:25%;}
+	.exmrsc_frist_content ul li span{font-size:12px;}
+	.exmrsc_frist_content ul li.check span{font-size:12px;}
+	/* --------------------------------------------------------- */
+	.exmrsc_second_header{height:20%;}
+	.exmrsc_second_content{height:80%;}
+	.exmrsc_second_defense{width:50%;height:100%;font-size:13px;line-height:25px;}
+	.exmrsc_second_defense span{font-size:13px;}
+	.exmrsc_second_defense_hover{width:50%;height:100%;font-size:13px;line-height:25px;}
+	.exmrsc_second_defense_hover span{font-size:13px;}
+	.exmrsc_second_content ul li{font-size:12px;margin:2px 5px;height:20%;}
+	.exmrsc_second_content ul li.check{font-size:12px;margin:2px 5px;height:20%;}
+	.exmrsc_second_content ul li span{font-size:12px;}
+	.exmrsc_second_content ul li.check span{font-size:12px;}
+	/* --------------------------------------------------------- */
+	.exmrsc_third_header{height:20%;}
+	.exmrsc_third_content{height:80%;}
+	.exmrsc_third_header_Keyplace{font-size:13px;line-height:25px;}
+	.exmrsc_third_header_Keyplace span{font-size:13px;}
+	.exmrsc_third_header_Keyplace_hover{font-size:13px;line-height:25px;}
+	.exmrsc_third_header_Keyplace_hover span{font-size:13px;}
+	.exmrsc_third_content ul li{font-size:12px;margin:2px 5px;height:28%;}
+	.exmrsc_third_content ul li.select{font-size:12px;margin:2px 5px;height:28%;}
+	.exmrsc_third_content ul li span{font-size:12px;}
+	.exmrsc_third_content ul li.select span{font-size:12px;}
+	.exmrsc_third_header span{line-height:25px;font-size:13px !important;}
+	.exmrsc_thirdc_morec ul li{height:16% !important;}
+	/* --------------------------------------------------------- */
+	.exmrsc_thirdc_morec ul li{margin:2px 0!important;}
+	.ex_main_rightheader_pw6{right:23%;}
+	.ex_main_rightheader_pw7{width:9%;height:28%;right:23%;}
+	#emrpc7 div{text-indent:5px;font-size:12px;}
+	.ex_main_danger_list{margin:22px -56px;}
+	.ex_main_bottom_menu_btn {
+	    width: 45px;
+	    height: 59px;
+	    float: left;
+	    background: url(../../image/exhibition/main/1366/open.png) no-repeat;
+	    z-index: 99;
+	    cursor: pointer;
+	}
+	.ex_main_bottom_menu_btn_hover{
+		 width: 45px;
+	    height: 59px;
+		float:left;
+		background:url(../../image/exhibition/main/1366/open_hover.png) no-repeat;
+		z-index:99999;
+		cursor: pointer;
+		margin:0px;
+	}
+	.ex_main_bottom_menu_content ul li{
+		width:88px;
+		height:74px;
+	}
+	.ex_main_bottom_menu_content{
+		height:59px;
+		left:43px;
+		width:0;
+	}
+	.Basicdata{
+	  background:url(../../image/exhibition/main/1366/Basicdata.png) top 5px center  no-repeat;
+	}
+	.Videosurveillance{
+	  background:url(../../image/exhibition/main/1366/Videosurveillance.png) top 5px center no-repeat;
+	}
+	.Patrolmanagement{
+	  background:url(../../image/exhibition/main/1366/Patrolmanagement.png) top 5px center no-repeat;
+	}
+	.Hiddendanger_disposal{
+	  background:url(../../image/exhibition/main/1366/Hiddendanger_disposal.png) top 5px center no-repeat;
+	}
+	.officeOa{
+	  background:url(../../image/exhibition/main/1366/officeOa.png) top 5px center no-repeat;
+	}
+	.training{
+	  background:url(../../image/exhibition/main/1366/training.png) top 5px center  no-repeat;
+	}
+	.Judgment_analysis{
+	  	background:url(../../image/exhibition/main/1366/Judgment_analysis.png) top 5px center  no-repeat;
+	}
+	.Videoconferencng{
+	  background:url(../../image/exhibition/main/1366/Videoconferencng.png) top 5px center no-repeat;
+	}
+	.MochaITOM{
+	  background:url(../../image/exhibition/mapanimate/MochaITOM.png) top 5px center no-repeat;
+	}
+	.Basicdata:hover{
+		width:88px !important;
+		height:74px !important;
+		background-size:none !important;
+		background: url(../../image/exhibition/main/1366/Basicdata_hover.png) 0 -15px no-repeat;
+	}
+	.Videosurveillance:hover{
+		width:88px !important;
+		height:74px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/main/1366/Videosurveillance_hover.png) 0 -15px no-repeat;
+	}
+	.Patrolmanagement:hover{
+		width:88px !important;
+		height:74px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/main/1366/Patrolmanagement_hover.png) 0 -15px  no-repeat;
+	}
+	.Hiddendanger_disposal:hover{
+		width:88px !important;
+		height:74px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/main/1366/Hiddendanger_disposal_hover.png) 0 -15px  no-repeat;
+	}
+	.officeOa:hover{
+		width:88px !important;
+		height:74px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/main/1366/officeOa_hover.png) 0 -15px  no-repeat;
+	}
+	.training:hover{
+		width:88px !important;
+		height:74px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/main/1366/training_hover.png) 0 -15px  no-repeat;
+	}
+	.Judgment_analysis:hover{
+		width:88px !important;
+		height:74px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/main/1366/Judgment_analysis_hover.png) 0 -15px  no-repeat;
+	}
+	.Videoconferencng:hover{
+		width:88px !important;
+		height:74px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/main/1366/Videoconferencng_hover.png) 0 -15px no-repeat;
+	}
+	.MochaITOM:hover{
+		width:88px !important;
+		height:74px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/main/1366/MochaITOM_hover.png) 0 -15px  no-repeat;
+	}
+	.ex_main_rightheader_pw4_content{
+		max-height:70% !important;
+	}
+}
+@media (min-width:1440px){
+	/* .ex_main_leftheader {width:28%;height: 10%;} */
+	.ex_main_right_screen_content{width:23%;}
+	.exmrsc_content_header{width:100%;height:32%;}
+	.exmrsc_content_header_left_content{height:80%;}
+	.exmrsc_content_header_left_content_railcontent li{font-size:12px !important;}
+	.exmrsc_region{width:92% !important;font-size:14px !important;}
+	.exmrsc_content_header_left_content_region li{font-size:12px !important;}
+	/* --------------------------------------------------------- */
+	.ex_main_rail_list{width:100%}
+	.ex_main_railList{height: calc(100% - 60px);}
+	.ex_main_rail_search{font-size:12px;}
+	.ex_main_railList li{font-size:12px;}
+	.ex_main_railList li.rail_line_select{font-size:12px;}
+	/* --------------------------------------------------------- */
+	.ex_main_right_screen_content_content_bottom{width:100%;height:68%;}
+	.exmrsc_content{top:5%;left:4%;}
+	/* --------------------------------------------------------- */
+	.exmrsc_frist_header{height:25%;}
+	.exmrsc_frist_content{height:75%;}
+	.exmrsc_frist_Keyparts{height:100%;font-size:14px;background-position: left 5px top 5px;}
+	.exmrsc_frist_Keyparts_check{height:100%;font-size:14px;background-position: left 5px top 5px;}
+	.exmrsc_frist_Keyparts_check span{font-size:14px;}
+	.exmrsc_frist_Keyparts span{font-size:14px;}
+	.exmrsc_frist_Keyperson{height:100%;font-size:14px;background-position: left 15px top 5px;}
+	.exmrsc_frist_Keyperson_check{height:100%;font-size:14px;background-position: left 15px top 5px;}
+	.exmrsc_frist_Keyperson span{font-size:14px;}
+	.exmrsc_frist_Keyperson_check span{font-size:14px;}
+	.exmrsc_frist_content ul li{font-size:13px;margin:4px 5px;height:25%;}
+	.exmrsc_frist_content ul li.check{font-size:13px;margin:4px 5px;height:25%;}
+	.exmrsc_frist_content ul li span{font-size:13px;}
+	.exmrsc_frist_content ul li.check span{font-size:13px;}
+	/* --------------------------------------------------------- */
+	.exmrsc_second_header{height:20%;}
+	.exmrsc_second_content{height:80%;}
+	.exmrsc_second_defense{width:50%;height:100%;font-size:14px;}
+	.exmrsc_second_defense span{font-size:14px;}
+	.exmrsc_second_defense_hover{width:50%;height:100%;font-size:14px;}
+	.exmrsc_second_defense_hoverspan{font-size:14px;}
+	.exmrsc_second_content ul li{font-size:13px;margin:4px 5px;height:16%;}
+	.exmrsc_second_content ul li.check{font-size:13px;margin:4px 5px;height:16%;}
+	.exmrsc_second_content ul li span{font-size:13px;}
+	.exmrsc_second_content ul li.check span{font-size:13px;}
+	.exmrsc_thirdc_morec ul li{height:16% !important;}
+	/* --------------------------------------------------------- */
+	.exmrsc_third_header{height:20%;}
+	.exmrsc_third_content{height:80%;}
+	.exmrsc_third_header_Keyplace{font-size:14px;}
+	.exmrsc_third_header_Keyplace span{font-size:14px;}
+	.exmrsc_third_header_Keyplace_hover{font-size:14px;}
+	.exmrsc_third_header_Keyplace_hover span{font-size:14px;}
+	.exmrsc_third_content ul li{font-size:13px;margin:4px 5px;height:23%;}
+	.exmrsc_third_content ul li.select{font-size:13px;margin:4px 5px;height:23%;}
+	.exmrsc_third_content ul li span{font-size:13px;}
+	.exmrsc_third_content ul li.select span{font-size:13px;}
+	/* --------------------------------------------------------- */
+	.ex_main_rightheader_pw6{right:22%;}
+	.ex_main_rightheader_pw7{width:9%;height:29%;right:22%;}
+	#emrpc7 div{text-indent:5px;font-size:12px;}
+	.exmrsc_thirdc_morec ul li{margin:2.5px !important;}
+	.ex_main_bottom_menu_content{width:0;height:62px;left:42px;}
+	.ex_main_bottom_menu_content ul li{width:92px;height:84px;}
+	.ex_main_bottom_menu_btn {
+	    width: 45px;
+	    height: 62px;
+	    float: left;
+	    bottom: 100px;
+	    left: 100px;
+	    background: url(../../image/exhibition/main/1440/open.png) no-repeat;
+	    z-index: 99;
+	    cursor: pointer;
+	}
+	.ex_main_bottom_menu_btn_hover{
+		width: 45px;
+	    height: 62px;
+		float:left;
+		bottom:100px;
+		left:100px;
+		background:url(../../image/exhibition/main/1440/open_hover.png) no-repeat;
+		z-index:99999;
+		cursor: pointer;
+		margin:0px;
+	}
+	.Basicdata{
+		width:92px;
+		height:84px;
+	  	background:url(../../image/exhibition/main/1440/Basicdata.png) top 10px center  no-repeat;
+	}
+	.Videosurveillance{
+	  background:url(../../image/exhibition/main/1440/Videosurveillance.png) top 10px center no-repeat;
+	}
+	.Patrolmanagement{
+	  background:url(../../image/exhibition/main/1440/Patrolmanagement.png) top 10px center no-repeat;
+	}
+	.Hiddendanger_disposal{
+	  background:url(../../image/exhibition/main/1440/Hiddendanger_disposal.png) top 10px center no-repeat;
+	}
+	.officeOa{
+	  background:url(../../image/exhibition/main/1440/officeOa.png) top 10px center no-repeat;
+	}
+	.training{
+	  background:url(../../image/exhibition/main/1440/training.png) top 10px center  no-repeat;
+	}
+	.Judgment_analysis{
+	  	background:url(../../image/exhibition/main/1440/Judgment_analysis.png) top 10px center  no-repeat;
+	}
+	.Videoconferencng{
+	  background:url(../../image/exhibition/main/1440/Videoconferencng.png) top 10px center no-repeat;
+	}
+	.MochaITOM{
+	  background:url(../../image/exhibition/main/1440/MochaITOM.png) top 10px center no-repeat;
+	}
+	.Basicdata:hover{
+		width:92px !important;
+		height:84px !important;
+		background-size:none !important;
+		background: url(../../image/exhibition/main/1440/Basicdata_hover.png) 0 -14px no-repeat;
+	}
+	.Videosurveillance:hover{
+		width:92px !important;
+		height:84px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/main/1440/Videosurveillance_hover.png) 0 -14px no-repeat;
+	}
+	.Patrolmanagement:hover{
+		width:92px !important;
+		height:84px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/main/1440/Patrolmanagement_hover.png) 0 -14px  no-repeat;
+	}
+	.Hiddendanger_disposal:hover{
+		width:92px !important;
+		height:84px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/main/1440/Hiddendanger_disposal_hover.png) 0 -14px  no-repeat;
+	}
+	.officeOa:hover{
+		width:92px !important;
+		height:84px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/main/1440/officeOa_hover.png) 0 -14px  no-repeat;
+	}
+	.training:hover{
+		width:92px !important;
+		height:84px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/main/1440/training_hover.png) 0 -14px  no-repeat;
+	}
+	.Judgment_analysis:hover{
+		width:92px !important;
+		height:84px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/main/1440/Judgment_analysis_hover.png) 0 -14px  no-repeat;
+	}
+	.Videoconferencng:hover{
+		width:92px !important;
+		height:84px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/main/1440/Videoconferencng_hover.png) 0 -14px no-repeat;
+	}
+	.MochaITOM:hover{
+		width:92px !important;
+		height:84px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/main/1440/MochaITOM_hover.png) 0 -14px  no-repeat;
+	}
+	.ex_main_rightheader_pw4_content{
+		max-height:70% !important;
+	}
+}
+
+@media (min-width:1680px){
+	.ex_main_bottom_menu_content ul li span{
+	    display:  inline-block;
+	    float:  left;
+	    color:  #fff;
+	    line-height:  120px;
+	    text-align:  center;
+	    width:  100%;
+	    font-family: monospace;
+	    font-size:16px;
+	}
+	.ex_main_right_screen_content{width:21%;}
+	.exmrsc_content_header{width:100%;height:40%;}
+	.exmrsc_content_header_left_content{height:80%;}
+	.exmrsc_content_header_left_content_railcontent li{font-size:12px !important;}
+	.exmrsc_region{width:100% !important;font-size:16px !important;}
+	.exmrsc_content_header_left_content_region li{font-size:14px !important;}
+	/* --------------------------------------------------------- */
+	.ex_main_rail_list{width:100%}
+	.ex_main_railList{height: calc(100% - 60px);}
+	.ex_main_rail_search{font-size:14px;}
+	.ex_main_railList li{font-size:14px;}
+	.ex_main_railList li.rail_line_select{font-size:14px;}
+	/* --------------------------------------------------------- */
+	.ex_main_right_screen_content_content_bottom{width:100%;height:60%;}
+	.exmrsc_content{top:5%;left:4%;}
+	/* --------------------------------------------------------- */
+	.exmrsc_frist_header{height:25%;}
+	.exmrsc_frist_content{height:75%;}
+	.exmrsc_frist_Keyparts{height:100%;font-size:16px;background-position: left 5px top 7px;}
+	.exmrsc_frist_Keyparts_check{height:100%;font-size:16px;background-position: left 5px top 7px;}
+	.exmrsc_frist_Keyparts_check span{font-size:16px;}
+	.exmrsc_frist_Keyparts span{font-size:16px;}
+	.exmrsc_frist_Keyperson{height:100%;font-size:16px;background-position: left 15px top 7px;}
+	.exmrsc_frist_Keyperson_check{height:100%;font-size:16px;background-position: left 15px top 7px;}
+	.exmrsc_frist_Keyperson span{font-size:16px;}
+	.exmrsc_frist_Keyperson_check span{font-size:16px;}
+	.exmrsc_frist_content ul li{font-size:14px;margin:4px 5px;height:25%;}
+	.exmrsc_frist_content ul li.check{font-size:14px;margin:5px 5px;height:25%;}
+	.exmrsc_frist_content ul li span{font-size:14px;}
+	.exmrsc_frist_content ul li.check span{font-size:14px;}
+	/* --------------------------------------------------------- */
+	.exmrsc_second_header{height:20%;}
+	.exmrsc_second_content{height:80%;}
+	.exmrsc_second_defense{width:50%;height:100%;font-size:16px;}
+	.exmrsc_second_defense span{font-size:16px;}
+	.exmrsc_second_defense_hover{width:50%;height:100%;font-size:16px;}
+	.exmrsc_second_defense_hoverspan{font-size:16px;}
+	.exmrsc_second_content ul li{font-size:14px;margin:5px 5px;height:16%;}
+	.exmrsc_second_content ul li.check{font-size:14px;margin:4px 5px;height:16%;}
+	.exmrsc_second_content ul li span{font-size:14px;}
+	.exmrsc_second_content ul li.check span{font-size:14px;}
+	/* --------------------------------------------------------- */
+	.exmrsc_third_header{height:20%;}
+	.exmrsc_third_content{height:80%;}
+	.exmrsc_third_header_Keyplace{font-size:16px;}
+	.exmrsc_third_header_Keyplace span{font-size:16px;}
+	.exmrsc_third_header_Keyplace_hover{font-size:16px;}
+	.exmrsc_third_header_Keyplace_hover span{font-size:16px;}
+	.exmrsc_third_content ul li{font-size:14px;margin:5px 5px;height:23%;}
+	.exmrsc_third_content ul li.select{font-size:14px;margin:5px 5px;height:23%;}
+	.exmrsc_third_content ul li span{font-size:14px;}
+	.exmrsc_third_content ul li.select span{font-size:14px;}
+	.exmrsc_thirdc_morec ul li{height:16% !important;}
+	/* --------------------------------------------------------- */
+	.ex_main_rightheader_pw4{height:100%;max-height:82%}
+	.ex_main_rightheader_pw6{right:20%;}
+	.ex_main_rightheader_pw7{width:9%;height:30%;right:20.3%;}
+	#emrpc7 div{text-indent:10px;font-size:14px;}
+	.ex_main_right_down{width:168px;}
+	.ex_main_right_down_hover{width:168px;}
+	.ex_main_bottom_menu_content ul li{
+		width:106px;
+		height:98px;
+	}
+	.ex_main_bottom_menu_content{
+		width:0;
+		height:80px;
+		left:55px;
+	}
+	.ex_main_bottom_menu_btn {
+	    width: 59px;
+	    height: 82px;
+	    float: left;
+	    background: url(../../image/exhibition/main/1680/open.png) no-repeat;
+	    z-index: 99;
+	    cursor: pointer;
+	}
+	.ex_main_bottom_menu_btn_hover{
+		width: 87px;
+	    height: 82px;
+		float:left;
+		background:url(../../image/exhibition/main/1680/open_hover.png) no-repeat;
+		z-index:99999;
+		cursor: pointer;
+		margin:0px;
+	}
+	.Basicdata{
+	  background:url(../../image/exhibition/main/1680/Basicdata.png) top 15px center  no-repeat;
+	}
+	.Videosurveillance{
+	  background:url(../../image/exhibition/main/1680/Videosurveillance.png) top 15px center no-repeat;
+	}
+	.Patrolmanagement{
+	  background:url(../../image/exhibition/main/1680/Patrolmanagement.png) top 15px center no-repeat;
+	}
+	.Hiddendanger_disposal{
+	  background:url(../../image/exhibition/main/1680/Hiddendanger_disposal.png) top 15px center no-repeat;
+	}
+	.officeOa{
+	  background:url(../../image/exhibition/main/1680/officeOa.png) top 15px center no-repeat;
+	}
+	.training{
+	  background:url(../../image/exhibition/main/1680/training.png) top 15px center  no-repeat;
+	}
+	.Judgment_analysis{
+	  	background:url(../../image/exhibition/main/1680/Judgment_analysis.png) top 15px center  no-repeat;
+	}
+	.Videoconferencng{
+	  background:url(../../image/exhibition/main/1680/Videoconferencng.png) top 15px center no-repeat;
+	}
+	.MochaITOM{
+	  background:url(../../image/exhibition/main/1680/MochaITOM.png) top 15px center no-repeat;
+	}
+	.Basicdata:hover{
+		width:106px !important;
+		height:98px !important;
+		background-size:none !important;
+		background: url(../../image/exhibition/main/1680/Basicdata_hover.png) 0 -15px no-repeat;
+	}
+	.Videosurveillance:hover{
+		width:106px !important;
+		height:98px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/main/1680/Videosurveillance_hover.png) 0 -15px no-repeat;
+	}
+	.Patrolmanagement:hover{
+		width:106px !important;
+		height:98px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/main/1680/Patrolmanagement_hover.png) 0 -15px  no-repeat;
+	}
+	.Hiddendanger_disposal:hover{
+		width:106px !important;
+		height:98px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/main/1680/Hiddendanger_disposal_hover.png) 0 -15px  no-repeat;
+	}
+	.officeOa:hover{
+		width:106px !important;
+		height:98px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/main/1680/officeOa_hover.png) 0 -15px  no-repeat;
+	}
+	.training:hover{
+		width:106px !important;
+		height:98px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/main/1680/training_hover.png) 0 -15px  no-repeat;
+	}
+	.Judgment_analysis:hover{
+		width:106px !important;
+		height:98px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/main/1680/Judgment_analysis_hover.png) 0 -15px  no-repeat;
+	}
+	.Videoconferencng:hover{
+		width:106px !important;
+		height:98px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/main/1680/Videoconferencng_hover.png) 0 -15px no-repeat;
+	}
+	.MochaITOM:hover{
+		width:106px !important;
+		height:98px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/main/1680/MochaITOM_hover.png) 0 -15px  no-repeat;
+	}
+	.ex_main_rightheader_pw4_content{
+		max-height:80% !important;
+	}
+}
+
+@media (min-width:1920px){
+	.ex_main_bottom_menu_content ul li span{
+	    display:  inline-block;
+	    float:  left;
+	    color:  #fff;
+	    line-height:  120px;
+	    text-align:  center;
+	    width:  100%;
+	    font-family: monospace;
+	    font-size:16px;
+	}
+	.ex_main_right_screen_content{width:21%;}
+	.exmrsc_content_header{width:100%;height:40%;}
+	.exmrsc_content_header_left_content{height:80%;}
+	.exmrsc_content_header_left_content_railcontent li{font-size:14px !important;}
+	.exmrsc_region{width:100% !important;font-size:16px !important;}
+	.exmrsc_content_header_left_content_region li{font-size:14px !important;}
+	/* --------------------------------------------------------- */
+	.ex_main_rail_list{width:100%}
+	.ex_main_railList{height: calc(100% - 60px);}
+	.ex_main_rail_search{font-size:14px;}
+	.ex_main_railList li{font-size:14px;}
+	.ex_main_railList li.rail_line_select{font-size:14px;}
+	/* --------------------------------------------------------- */
+	.ex_main_right_screen_content_content_bottom{width:100%;height:60%;}
+	.exmrsc_content{top:5%;left:4%;}
+	/* --------------------------------------------------------- */
+	.exmrsc_frist_header{height:25%;}
+	.exmrsc_frist_content{height:75%;}
+	.exmrsc_frist_Keyparts{height:100%;font-size:16px;background-position: left 5px top 7px;}
+	.exmrsc_frist_Keyparts_check{height:100%;font-size:16px;background-position: left 5px top 7px;}
+	.exmrsc_frist_Keyparts_check span{font-size:16px;}
+	.exmrsc_frist_Keyparts span{font-size:16px;}
+	.exmrsc_frist_Keyperson{height:100%;font-size:16px;background-position: left 15px top 7px;}
+	.exmrsc_frist_Keyperson_check{height:100%;font-size:16px;background-position: left 15px top 7px;}
+	.exmrsc_frist_Keyperson span{font-size:16px;}
+	.exmrsc_frist_Keyperson_check span{font-size:16px;}
+	.exmrsc_frist_content ul li{font-size:14px;margin:5px 5px;height:23%;}
+	.exmrsc_frist_content ul li.check{font-size:14px;margin:5px 5px;height:23%;}
+	.exmrsc_frist_content ul li span{font-size:14px;}
+	.exmrsc_frist_content ul li.check span{font-size:14px;}
+	/* --------------------------------------------------------- */
+	.exmrsc_second_header{height:20%;}
+	.exmrsc_second_content{height:80%;}
+	.exmrsc_second_defense{width:50%;height:100%;font-size:16px;}
+	.exmrsc_second_defense span{font-size:16px;line-height:30px;}
+	.exmrsc_second_defense_hover{width:50%;height:100%;font-size:16px;}
+	.exmrsc_second_defense_hover span{font-size:16px;}
+	.exmrsc_second_content ul li{font-size:14px;margin:5px 5px;height:16%;}
+	.exmrsc_second_content ul li.check{font-size:14px;margin:5px 5px;height:16%;}
+	.exmrsc_second_content ul li span{font-size:14px;}
+	.exmrsc_second_content ul li.check span{font-size:14px;}
+	/* --------------------------------------------------------- */
+	.exmrsc_third_header{height:20%;}
+	.exmrsc_third_content{height:80%;}
+	.exmrsc_third_header_Keyplace{font-size:16px;}
+	.exmrsc_third_header_Keyplace span{font-size:16px;}
+	.exmrsc_third_header_Keyplace_hover{font-size:16px;}
+	.exmrsc_third_header_Keyplace_hover span{font-size:16px;}
+	.exmrsc_third_content ul li{font-size:14px;margin:5px 5px;height:23%;}
+	.exmrsc_third_content ul li.select{font-size:14px;margin:5px 5px;height:23%;}
+	.exmrsc_third_content ul li span{font-size:14px;}
+	.exmrsc_third_content ul li.select span{font-size:14px;}
+	.exmrsc_third_header span{font-size:16px !important;}
+	.exmrsc_thirdc_morec ul li{height:16% !important;}
+	/* --------------------------------------------------------- */
+	.ex_main_rightheader_pw4{max-height:80%}
+	.ex_main_rightheader_pw6{right:20.2%;}
+	.ex_main_rightheader_pw7{width:9%;height:30%;right:20.1%;}
+	#emrpc7 div{text-indent:15px;font-size:16px;}
+	.ex_main_bottom_menu_content ul li{width:121px;height:100px;}
+	.ex_main_bottom_menu_content ul li:hover{
+	width:121px;
+	height:100px; 
+	}
+	.Basicdata{
+	  background:url(../../image/exhibition/mapanimate/Basicdata.png) top 15px center  no-repeat;
+	}
+	.Videosurveillance{
+	  background:url(../../image/exhibition/mapanimate/Videosurveillance.png) top 15px center no-repeat;
+	}
+	.Patrolmanagement{
+	  background:url(../../image/exhibition/mapanimate/Patrolmanagement.png) top 15px center no-repeat;
+	}
+	.Hiddendanger_disposal{
+	  background:url(../../image/exhibition/mapanimate/2222.png) top 15px center no-repeat;
+	}
+	.officeOa{
+	  background:url(../../image/exhibition/mapanimate/officeOa.png) top 15px center no-repeat;
+	}
+	.training{
+	  background:url(../../image/exhibition/mapanimate/training.png) top 15px center  no-repeat;
+	}
+	.Judgment_analysis{
+	  	background:url(../../image/exhibition/mapanimate/Judgment_analysis.png) top 15px center  no-repeat;
+	}
+	.Videoconferencng{
+	  background:url(../../image/exhibition/mapanimate/Videoconferencng.png) top 15px center no-repeat;
+	}
+	.MochaITOM{
+	  background:url(../../image/exhibition/mapanimate/MochaITOM.png) top 15px center no-repeat;
+	}
+	 .Basicdata:hover{
+		width:121px !important;
+		height:100px !important;
+		background-size:none !important;
+		background: url(../../image/exhibition/mapanimate/Basicdata_hover.png) 0 -15px no-repeat;
+	}
+	.Videosurveillance:hover{
+		width:121px !important;
+		height:100px !important;
+		background-size:none !important;
+	  background:url(../../image/exhibition/mapanimate/Videosurveillance_hover.png) 0 -15px no-repeat;
+	}
+	.Patrolmanagement:hover{
+		width:121px !important;
+		height:100px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/mapanimate/Patrolmanagement_hover.png) 0 -15px  no-repeat;
+	}
+	.Hiddendanger_disposal:hover{
+		width:121px !important;
+		height:100px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/mapanimate/Hiddendanger_disposal_hover.png) 0 -15px  no-repeat;
+	}
+	.officeOa:hover{
+		width:121px !important;
+		height:100px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/mapanimate/officeOa_hover.png) 0 -15px  no-repeat;
+	}
+	.training:hover{
+		width:121px !important;
+		height:100px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/mapanimate/training_hover.png) 0 -15px  no-repeat;
+	}
+	.Judgment_analysis:hover{
+		width:121px !important;
+		height:100px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/mapanimate/Judgment_analysis_hover.png) 0 -15px  no-repeat;
+	}
+	.Videoconferencng:hover{
+		width:121px !important;
+		height:100px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/mapanimate/Videoconferencng_hover.png) 0 -15px no-repeat;
+	}
+	.MochaITOM:hover{
+		width:121px !important;
+		height:100px !important;
+		background-size:none !important;
+	  	background:url(../../image/exhibition/mapanimate/MochaITOM_hover.png) 0 -15px  no-repeat;
+	}
+	.ex_main_rightheader_pw4_content{
+		max-height:85% !important;
+	}
+}
+
+
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="20px" height="20px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<circle fill="#8696BE" cx="9.938" cy="9.751" r="9"/>
+<g>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="4.391" y="3.563" width="11.096" height="12.378"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<path clip-path="url(#SVGID_2_)" fill="#FFFFFF" d="M4.389,6.396h11.093L9.964,3.577L4.389,6.396z M4.389,6.396"/>
+	</g>
+	<rect x="5.187" y="7.378" fill="#FFFFFF" width="1.777" height="5.21"/>
+	<rect x="9.068" y="7.378" fill="#FFFFFF" width="1.776" height="5.21"/>
+	<rect x="12.937" y="7.378" fill="#FFFFFF" width="1.777" height="5.21"/>
+	<path fill="#FFFFFF" d="M7.949,13.789c0-0.226-0.188-0.409-0.42-0.409H4.933c-0.231,0-0.419,0.184-0.419,0.409v0.721
+		c0,0.227,0.188,0.408,0.419,0.408h2.595c0.232,0,0.42-0.182,0.42-0.408V13.789z M7.949,13.789"/>
+	<path fill="#FFFFFF" d="M15.4,13.789c0-0.226-0.187-0.409-0.419-0.409h-2.596c-0.231,0-0.421,0.184-0.421,0.409v0.721
+		c0,0.227,0.189,0.408,0.421,0.408h2.596c0.232,0,0.419-0.182,0.419-0.408V13.789z M15.4,13.789"/>
+	<path fill="#FFFFFF" d="M11.562,13.562c0-0.093-0.117-0.169-0.263-0.169h-2.67c-0.145,0-0.263,0.076-0.263,0.169
+		c0,0.095,0.118,0.17,0.263,0.17h2.67C11.444,13.731,11.562,13.656,11.562,13.562"/>
+	<path fill="#FFFFFF" d="M11.562,14.659c0-0.095-0.117-0.17-0.263-0.17h-2.67c-0.145,0-0.263,0.075-0.263,0.17
+		c0,0.092,0.118,0.169,0.263,0.169h2.67C11.444,14.828,11.562,14.751,11.562,14.659"/>
+	<path fill="#FFFFFF" d="M11.562,15.756c0-0.094-0.117-0.169-0.263-0.169h-2.67c-0.145,0-0.263,0.075-0.263,0.169
+		c0,0.093,0.118,0.169,0.263,0.169h2.67C11.444,15.925,11.562,15.849,11.562,15.756"/>
+</g>
+</svg>

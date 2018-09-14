@@ -1,0 +1,148 @@
+package com.pc.socket.service;
+
+import java.io.IOException;
+import java.net.BindException;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+import org.apache.log4j.Logger;
+
+import com.pc.socket.service.handler.MultiSocketCMDHandler;
+import com.pc.socket.service.thread.ScanBroadcast;
+
+
+public class MultiSocketCMDServer extends Thread
+{
+	private static Logger logger = Logger.getLogger(MultiSocketCMDServer.class);
+	
+	private int status = 0;
+	private int maxConnections;
+	private int listenPort;
+	public static DatagramSocket serverSocket;
+	
+	/**
+	 *	constructor
+	 */
+    public MultiSocketCMDServer() {
+    	
+    	super();
+    	logger.info("命令控制Socket服务开始初始化……");
+        this.start();
+        
+    }
+    
+    /**
+     * 获取线程状态
+     * @return Returns the status.
+     */
+    public int getStatus() {
+        return status;
+    }
+
+    /**
+     * 设置线程状态
+     * @param status
+     */
+    public synchronized void setStatus(int status) {
+    	this.status = status;
+        if(status==1){
+            this.notify();
+        }
+    }
+    
+    /**
+     * 初始化
+     */
+    public void init(int maxCons,int port){
+    	
+    	this.listenPort = port;
+        this.maxConnections = maxCons;
+       
+        
+        try{
+        	//创建套接字,需修改成基于udp  
+        	serverSocket = new DatagramSocket(this.listenPort);
+        	logger.info("命令控制Socket服务启动完成,等待接收请求");
+            //开启处理事件的runnable
+            setUphandles();
+        }catch (BindException e){
+    		e.printStackTrace();
+    	}catch (IOException e1){
+    		e1.printStackTrace();
+    	}
+        
+        
+    }
+    
+    /**
+     * run方法
+     */
+    public synchronized void run(){
+    	
+    	while(true){
+    		if (status == 0) {
+                try {
+                    this.wait();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+
+    		try{
+    			
+    	        byte[] buffer=new byte[4];
+    	        DatagramPacket datagramPacket = new DatagramPacket(buffer,buffer.length);
+    	        serverSocket.receive(datagramPacket);
+    			//Socket inComingSocket = serverSocket.receive();
+    			
+    			//Socket关闭之后300秒强制释放资源(D.Steven2013-07-27 增加)
+    			//inComingSocket.setSoLinger(true, 300000);  
+    	        String res = new String(buffer,0,datagramPacket.getLength());
+    	        
+    	        //开启线程去处理业务
+    			handleConnection(serverSocket,datagramPacket);
+    			
+    			
+    		}catch (IOException e1){
+        		e1.printStackTrace();
+    			status = 0;
+        	}
+    	}
+    	
+    }
+    
+    /**
+     * 处理客户端请求
+     * @param connectionToHandle
+     */
+    protected void handleConnection(DatagramSocket socket,DatagramPacket packet){
+    	MultiSocketCMDHandler.processRequest(socket,packet);
+    }
+    
+    /**
+     * 设置并初始化线程池
+     */
+    public void setUphandles(){
+    	for(int i = 0; i < this.maxConnections; i ++){
+    		MultiSocketCMDHandler currentHandler = new MultiSocketCMDHandler(serverSocket);
+    		new Thread(currentHandler,"CMDHandler"+i).start();
+    		//logger.info("命令控制Socket服务线程CMDHandler["+i+"]启动!");
+    	}
+    }
+    
+    /**
+     * 关闭socket连接
+     */
+//    public void closeSocketServer(){
+//
+//    	try{
+//
+//    		serverSocket.close();
+//    		
+//    	}catch (IOException e){
+//    		e.printStackTrace();
+//    	}
+//    }
+}

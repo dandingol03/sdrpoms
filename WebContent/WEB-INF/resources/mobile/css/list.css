@@ -1,0 +1,238 @@
+	@charset="utf-8";
+	.mb_layout_PopWinList {
+		overflow: hidden;
+		border-top: 1px solid #ddd;
+	}
+	
+	.mb_layout_PopWinList ul li {
+		overflow: hidden;
+		width: 100%;
+		position: relative;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.mb_layout_PopWinList li div {
+		display: block;
+		height: 80px;
+		line-height: 80px;
+		-webkit-transition: all 0.3s linear;
+		transition: all 0.3s linear;
+		border-bottom: 1px solid #eeeeee;
+	}
+	
+	.mb_layout_PopWinList_rightbtn{
+		position: absolute;
+		width: 30%;
+		top: 0;
+		right: 0;
+		height: 80px;
+		text-align: center;
+		background: #fff;
+		color: #fff;
+	}
+	
+	.mb_layout_PopWinList_rightbtn button {
+		float: left;
+		width: 48%;
+		height: 90%;
+		border: 1px solid #fff;
+		background: red;
+		height: 90%;
+		border: 1px solid #fff;
+		background: #ff3a31;
+		margin: 4% 0;
+	}
+	
+	 .mb_layout_PopWinList_rightbtn ul li{
+		float: left;
+		width: 50%
+	}
+	
+	 .mb_layout_PopWinList_rightbtn ul li{
+		float: left;
+		width: 100%;
+		height: 100%;
+		display: block;
+		background: red;
+	}
+	.mb_layout_PopWinList_rightbtn button:nth-child(2)
+		{
+		background: #efefef;
+		color: #000;
+		margin: 4% 1px;
+	}
+	.swipeleft {
+		width: 100%;
+		z-index: -1;
+		transform: translateX(-30%);
+		-webkit-transform: translateX(-30%);
+	}
+	.mb_layout_PopWin_listContent {
+		display: none;
+		width: 100%;
+		height: auto;
+		background: #efefef;
+		margin: 0;
+	}
+	
+	.mb_layout_PopWin_listContent ul li {
+		float: none;
+		height: 40px;
+		line-height: 40px;
+	}
+	.mb_menu_head {
+		width: 100%;
+		left: 0;
+		overflow: hidden;
+		position: absolute;
+		z-index: 999999;
+		background: #fff;
+		height: 80px;
+	}
+	
+	.mb_layoutPopwinList_table {
+		width: 100%;
+		margin: 0 auto;
+		overflow:hidden;
+	}
+	.mb_layoutPopwinList_table table{
+		margin:0 auto;
+		table-layout: fixed;
+	}
+	.mb_layoutPopwinList_table table tr{
+		background-color:#fff;
+		border-bottom:1px solid #eeeeee;
+	}
+	.mb_layoutPopwinList_table table tr td {
+		width: 25%;
+		height: 40px;
+		font-size:0.9em;
+		text-align: right;
+		font-family: Microsoft YaHei;
+		word-wrap:break-word;
+		word-break:break-all;
+	}
+	.mb_layoutPopwinList_table table tr td:nth-child(2){
+		padding:0 15px;
+		width:60%;
+	}
+	.mb_layoutPopwinList_table table tr td:nth-child(2) input{
+		border:none;
+		height:75%;
+		width:93%;
+		outline:none;
+	}
+	.mb_layoutPopwinList_table table tr td:nth-child(2) input span{
+		border:1px solid #000;
+		border-radius:5px;
+		height:75%;
+		width:80%;
+	}
+	.mb_layoutPopwinList_table table tr td:nth-child(2) select{
+		border:none;
+		height:75%;
+		width:93%;
+		background-color:#fff;	
+		outline: none;
+	}
+	.mb_layoutPopwinList_table table tr:nth-last-child(1) td div{
+	    height: 80%;
+	    text-align: center;
+	    outline: none;
+	    margin: 0 auto;
+	    line-height: 30px;
+	    background-color: #0075a9;
+	    color:#fff;
+	    border:none;
+	    width: 80%;
+	    border-radius:5px;
+	}
+	.mb_layoutPopwinList_table table tr:nth-last-child(2) td div{
+	    height: 80%;
+	    text-align: center;
+	    outline: none;
+	    margin: 0 auto;
+	    line-height: 30px;
+	    background-color: #0090e0;
+	    color:#fff;
+	    border:none;
+	    width: 80%;
+	    border-radius:5px;
+	}
+	.mb_layoutPopwinList_table table textarea{
+		border:none;
+		resize:none;
+		width:93%;
+	}
+	.mb_layoutPopwinList_table_user table{
+		width:100%;
+		margin-top:7px;
+	}
+	.mb_layoutPopwinList_table_user table tr td input{
+		outline: none;
+	}
+	.mb_layoutPopwinList_table_man span{
+		float: right;
+	}
+	.mb_layoutPopwinList_table_women span{
+		float: right;
+	}
+	.mb_layoutPopwinList_table_man{
+		/* background:url(../../image/mobile/icon/radio.png) no-repeat; */
+		width: 23%;
+	    height: 83%;
+	    float: left;
+	    background-size: 48% 62%;
+	    position: relative;
+	    top: 19%;
+	    line-height: 80%;
+	}
+	.mb_layoutPopwinList_table_women{
+		/* background:url(../../image/mobile/icon/radio.png) no-repeat; */
+		width: 23%;
+	    height: 83%;
+	    float: left;
+	    background-size: 48% 62%;
+	    position: relative;
+	    top: 19%;
+	    line-height: 80%;
+	    margin-left: 15px;
+	}
+	.lat_and_lng{
+		width:80%;
+		margin:0 auto;
+		height:80%;
+		line-height:30px;
+		background-color:#4fc0ea;
+		color:#fff;
+		border-radius:5px;
+		text-align: center
+	}
+	.lat_and_lng img{
+		width: 15px;
+   	 	height: 21px;
+    	margin-top: 5px;
+	}
+	.lat_and_lng span{
+		position: relative;
+    	top: -5px;
+	}
+	.left table tr{
+		background:#eeeeee;
+	}
+	.left table tr td:nth-child(2){
+		text-align:left;
+	}
+	.mb_trueOrFalse{
+		position:relative;
+		right:42%;
+	}
+	.mb_check{
+		background-color:#eeeeee;
+		border:none;
+		color:red;
+		height:0px;
+		text-align:center;
+		font-size:10px;
+	}

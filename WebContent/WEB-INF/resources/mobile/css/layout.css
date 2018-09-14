@@ -1,0 +1,85 @@
+.mb_layout_PopWinHeader {
+	width: 100%;
+	height: 56px;
+	/* background: url(../../image/mobile/icon/mb_layout_header.png) no-repeat; */
+	background:#061859;
+	position: relative;
+	z-index:1;
+	background-size: 100% 100%;
+}
+
+
+.mb_layout_closePopWin {
+	background:
+		url(../../image/mobile/icon/mb_layout_headerclose.png)
+		center no-repeat;
+	width: 12px;
+	height: 21px;
+	left:10px;
+	top:15px;
+	position:absolute;
+	z-index:2;
+	background-size: 100% 100%;
+	
+} 
+.mb_layout_PopWinTitle{
+	width: 100%;
+	z-index:1;
+	position:absolute;
+	height: 56px;
+	line-height: 56px;
+	text-align: center;
+	font-size:1.1em;
+	color:#fff;
+	font-family: Microsoft YaHei;
+}
+
+.mb_layout_PopWinMenu {
+	width: 100px;
+	height: 56px;
+	position: absolute;
+	right:0;
+	z-index:3;
+}
+.mb_layout_PopWinSecondContent{
+	width: 100%;
+    height: calc(100% - 56px);
+    background: #eeeeee;
+    position: absolute;
+    bottom: 0;
+    z-index: 999;
+    overflow: auto;
+	
+}
+/* ���Ͻ� ��ť*/
+.mb_layout_PopWinMenu button {
+	float: left;
+	outline:none;	
+}
+
+.mb_layout_PopWinMenu button:nth-child(1) {
+	background: url(../../image/mobile/icon/mb_layout_add.png)
+		center top 1px no-repeat;
+	width: 19px;
+	height: 21px;
+	background-size: 100% 100%;
+	position:absolute;
+	left:70px;
+	top:15px;
+	border: none;
+}
+
+.mb_layout_PopWinMenu button:nth-child(2) {
+    background: url(../../image/mobile/icon/mb_layout_search.png) center no-repeat;
+    width: 30px;
+    height: 30px;
+    background-size: 100% 100%;
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 16px;
+}
+
+
+
+

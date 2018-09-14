@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+.rotate-setup_top {
+	top:10em;
+	left:2.5em;
+}
+
+.ol-popup {
+  position: absolute;
+  background-color: #0d3242;
+  opacity:0.85;
+  -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+  filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #025d85;
+  bottom: 12px;
+  left: -50px;
+  min-width: 500px;
+  color:#fff;	
+}
+.ol-popup:after, .ol-popup:before {
+  top: 100%;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-top: 20px solid #0d3242;
+  border-right:20px solid transparent;
+  border-bottom:20px solid transparent;
+  border-left:20px solid transparent;
+}
+.map-popup-content tr td{
+	border:1px solid #025d85;
+}
+.ol-popup:after {
+  border-width: 10px;
+  left: 48px;
+  margin-left: -10px;
+}
+.ol-popup:before {
+  border-top-color: #cccccc;
+  border-width: 11px;
+  left: 48px;
+  margin-left: -11px;
+}
+.ol-popup-closer {
+  text-decoration: none;
+  position: absolute;
+  top: 2px;
+  right: 8px;
+}
+.ol-popup-closer:after {
+  content: "✖";
+  color:rgb(0,185,246);
+}

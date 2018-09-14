@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+/*清除全局样式*/
+*{margin: 0;padding: 0}
+body,div,dl,dt,dd,ul,ol,li,h2,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,h1,h2,h3,h4,h5,h6,from{margin: 0;padding: 0;}
+ol,ul {list-style: none;}
+/* a {color: #000000;text-decoration: none;font-size: 12px;}
+a:hover {color: #a80115;text-decoration: none;} */
+a {text-decoration: none;}
+a:hover {text-decoration: none;}
+img {border: 0px;}

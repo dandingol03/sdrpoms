@@ -1,0 +1,59 @@
+.wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.wrappers {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.load-more-top,
+.load-more-bottom {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.load-more-top {
+    top: -50px
+}
+
+.load-more-top.isLoading .loading-icon,
+.load-more-bottom.isLoading .loading-icon {
+    display: block;
+}
+
+.load-more-top.isLoading .text,
+.load-more-bottom.isLoading .text {
+    display: none;
+}
+
+.load-more-bottom {
+    bottom: -50px
+}
+
+.load-more-top span,
+.load-more-bottom span {
+    display: block;
+    width: 100%;
+}
+
+.load-more-top .loading-icon,
+.load-more-bottom .loading-icon {
+    display: none;
+}
+
+.load-more-top .loading-icon,
+.load-more-bottom .loading-icon {
+    display: none;
+}
